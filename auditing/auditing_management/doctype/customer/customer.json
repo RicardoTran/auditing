@@ -1,0 +1,158 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:customer_name",
+ "creation": "2023-06-28 15:05:18.544194",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_info_section",
+  "customer_name",
+  "manage_group",
+  "member_type",
+  "column_break_e2qro",
+  "first_year_audit",
+  "num_year_audited",
+  "company_information_section",
+  "company_name",
+  "tax_code",
+  "company_type",
+  "column_break_7slwb",
+  "company_address",
+  "contact_info_section",
+  "primary_contact",
+  "column_break_pi47d",
+  "legal_contact"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company name"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "tax_code",
+   "fieldtype": "Data",
+   "label": "Tax code"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "company_address",
+   "fieldtype": "Small Text",
+   "label": "Company address"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "company_type",
+   "fieldtype": "Data",
+   "label": "Company type"
+  },
+  {
+   "default": "M\u1edbi",
+   "fieldname": "member_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Member type",
+   "options": "C\u0169\nM\u1edbi",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "first_year_audit",
+   "fieldtype": "Int",
+   "label": "First year audit"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "num_year_audited",
+   "fieldtype": "Int",
+   "label": "Number of years audited"
+  },
+  {
+   "fieldname": "primary_contact",
+   "fieldtype": "Data",
+   "label": "Primary contact"
+  },
+  {
+   "fieldname": "legal_contact",
+   "fieldtype": "Data",
+   "label": "Legal representative"
+  },
+  {
+   "fieldname": "company_information_section",
+   "fieldtype": "Section Break",
+   "label": "Company info"
+  },
+  {
+   "fieldname": "contact_info_section",
+   "fieldtype": "Section Break",
+   "label": "Contact info"
+  },
+  {
+   "fieldname": "column_break_e2qro",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_7slwb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_pi47d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_info_section",
+   "fieldtype": "Section Break",
+   "label": "Customer info"
+  },
+  {
+   "fieldname": "manage_group",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Management group",
+   "options": "Management Group",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-28 16:14:43.163698",
+ "modified_by": "Administrator",
+ "module": "Auditing Management",
+ "name": "Customer",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "customer_name"
+}

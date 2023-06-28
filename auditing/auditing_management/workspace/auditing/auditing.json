@@ -1,0 +1,44 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"R3p6ROOEls\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span><br>\",\"col\":12}},{\"id\":\"SaS1kcj6Fs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer list\",\"col\":3}},{\"id\":\"gKcnPWZafq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Management group\",\"col\":3}}]",
+ "creation": "2023-06-28 14:46:27.655959",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "liabilities",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Auditing",
+ "links": [],
+ "modified": "2023-06-28 16:33:40.790485",
+ "modified_by": "Administrator",
+ "module": "Auditing Management",
+ "name": "Auditing",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Management group",
+   "link_to": "Management Group",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Customer list",
+   "link_to": "Customer",
+   "type": "DocType"
+  }
+ ],
+ "title": "Auditing"
+}
